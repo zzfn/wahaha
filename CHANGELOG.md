@@ -1,0 +1,10 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## 1.1.0 (2021-07-31)
+
+
+### Features
+
+* 初始化 ([c697e07](https://github.com/zzfn/wahaha/commit/c697e0763fd9249b2e46a48fe4733f798db514b8))

@@ -7,8 +7,6 @@ on:
   push:
     tags-ignore:
       - v*.*.*-alpha.*
-    tags:
-      - v*.**
 
 jobs:
   build:

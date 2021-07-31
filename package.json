@@ -1,0 +1,23 @@
+{
+  "name": "@zzf/wahaha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzfn/wahaha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzfn/wahaha/issues"
+  },
+  "homepage": "https://github.com/zzfn/wahaha#readme",
+  "devDependencies": {
+    "semantic-release": "^17.4.4"
+  }
+}

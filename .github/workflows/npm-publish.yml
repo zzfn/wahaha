@@ -6,7 +6,7 @@ name: Node.js latest
 on:
   push:
     tags:
-      - '!*-alpha-*'
+      - '!v*-alpha-*'
 
 jobs:
   build:

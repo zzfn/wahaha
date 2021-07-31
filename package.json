@@ -1,6 +1,6 @@
 {
   "name": "@zzf/wahaha",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "",
   "main": "lib/main.js",
   "files": [
@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "release": "standard-version",
-    "patch": "standard-version minor",
+    "minor": "standard-version --release-as minor",
+    "major": "standard-version --release-as major",
     "pre-release": "standard-version --prerelease alpha"
   },
   "repository": {

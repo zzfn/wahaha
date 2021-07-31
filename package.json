@@ -9,9 +9,9 @@
   ],
   "scripts": {
     "release": "standard-version",
+    "pre-release": "standard-version --prerelease alpha",
     "minor": "standard-version --release-as minor",
-    "major": "standard-version --release-as major",
-    "pre-release": "standard-version --prerelease alpha"
+    "major": "standard-version --release-as major"
   },
   "repository": {
     "type": "git",

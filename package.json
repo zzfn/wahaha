@@ -2,12 +2,12 @@
   "name": "@zzf/wahaha",
   "version": "1.3.2-alpha.0",
   "description": "",
-  "main": "lib/main.js",
+  "main": "dist/index.min.cjs.js",
   "files": [
-    "lib/**/*",
     "dist/**/*"
   ],
   "scripts": {
+    "build": "rollup -c",
     "release": "standard-version",
     "pre-release": "standard-version --prerelease alpha",
     "minor": "standard-version --release-as minor",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/zzfn/wahaha#readme",
   "devDependencies": {
+    "rollup": "^2.55.1",
     "semantic-release": "^17.4.4",
     "standard-version": "^9.3.1"
   }

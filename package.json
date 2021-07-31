@@ -8,7 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "release": "semantic-release"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/zzfn/wahaha#readme",
   "devDependencies": {
-    "semantic-release": "^17.4.4"
+    "semantic-release": "^17.4.4",
+    "standard-version": "^9.3.1"
   }
 }

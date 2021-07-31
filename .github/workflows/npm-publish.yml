@@ -5,8 +5,10 @@ name: Node.js latest
 
 on:
   push:
+    tags-ignore:
+      - v*.*.*-alpha.*
     tags:
-      - '!v*.*.*-alpha.*'
+      - v*.**
 
 jobs:
   build:
